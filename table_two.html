@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+            color: black;
+        }
+        th,td{
+            border: 0.5px solid #070707;
+            padding:5px;
+
+        }
+        tr:nth-child(odd){
+            background-color: rgb(197, 176, 176);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col span="5" style="background-color:aquamarine">
+        </colgroup>
+        <tr>
+            <th>NAME</th>
+            <th>Roll No</th>
+            <th>Subject</th>
+            <th>Marks</th>
+            <th>Grade</th>
+        </tr>
+        <tr>
+            <td>ROHIT</td>
+            <td>01</td>
+            <td>Mathematics</td>
+            <td>95</td>
+            <td>O</td>
+        </tr>
+        <tr>
+            <td>Hitesh</td>
+            <td>02</td>
+            <td>Mathematics</td>
+            <td>98</td>
+            <td>O</td>
+        </tr>
+        <tr>
+            <td>Kunal</td>
+            <td>03</td>
+            <td>Mathematics</td>
+            <td>85</td>
+            <td>A+</td>
+        </tr>
+    </table>
+</body>
+</html>
